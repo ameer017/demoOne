@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&display=swap');
 
 :root {
     --primary-color-hue: 252;
@@ -16,6 +16,7 @@
     --color-danger: hsl(0, 95%, 65%);
     --color-dark: hsl(252, 30%, var(--dark-color-lightness));
     --color-black: hsl(255, 30%, 10%);
+    --color-choco: hsl(32, 65%, 36%);
 
 
     --border-radius: 2rem;
@@ -40,7 +41,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Crimson Text', serif;
     color: var(--color-dark);
     background-color: var(--color-light);
 }
@@ -515,6 +516,10 @@ main .container .right {
     background: var(--color-white);
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
+    -webkit-border-radius: var(--card-border-radius);
+    -moz-border-radius: var(--card-border-radius);
+    -ms-border-radius: var(--card-border-radius);
+    -o-border-radius: var(--card-border-radius);
 }
 
 .right .messages .heading {
@@ -537,6 +542,7 @@ main .container .right {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 .right .messages .category h6{
     width: 100%;
@@ -729,7 +735,7 @@ main .container .right {
 }
 
 .customizeTheme .chooseColor span:first-child {
-    background: burlywood;
+    background: hsl(252, 75%, 60%);
 }
 
 .customizeTheme .chooseColor span:nth-child(2) {
@@ -745,7 +751,7 @@ main .container .right {
 }
 
 .customizeTheme .chooseColor span:last-child {
-    background: rgb(85, 85, 200);
+    background: var(--color-choco);
 }
 
 .customizeTheme .bgColor {
@@ -866,7 +872,7 @@ main .container .right {
     }
 
     .customizeTheme .card {
-        width: 80vw;
+        /* width: 80vw; */
     }
 
 
