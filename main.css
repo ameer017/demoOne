@@ -872,8 +872,20 @@ main .container .right {
     }
 
     .customizeTheme .card {
-        /* width: 80vw; */
+        width: 80vw;
     }
 
 
+}
+
+@media screen and (max-width: 460px) {
+
+    .customizeTheme .bgColor > h4 {
+        margin-bottom: 1rem;
+    }
+    .customizeTheme .chooseBg  {
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+    }
 }

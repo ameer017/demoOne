@@ -56,6 +56,20 @@ messagesNotification.addEventListener('click', () => {
     }, 2000)
 })
 
+
+// REQUEST
+// const request = document.querySelector('.messageRequests');
+// const friendRequest = document.querySelector('.friendRequest');
+
+// request.addEventListener('click', () => {
+//     friendRequest.style.boxShadow = '0 0 1rem var(--color-primary)';
+//     // document.querySelector('#messageNotifications .notificationCount').style.display = 'none';
+//     // messagesNotification.querySelector('.notificationCount').style.display = 'none';
+//     setTimeout(() => {
+//         friendRequest.style.boxShadow = 'none'
+//     }, 2000)
+// })
+
 // THEME 
 const openModal = () => {
     customizeTheme.style.display = 'grid';
